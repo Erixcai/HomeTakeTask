@@ -1,5 +1,5 @@
 # HomeTakeTask
-DrLambda Take Home Project 2
+## DrLambda Take Home Project 2
 In this project, I answered four questions about AI in total.
 Question 1:play around julius.ai, use it to search and generate charts
 Here is the screenshot of how I use julius to generate charts:
