@@ -21,11 +21,10 @@ Note: The scraping functionality is based on the structure of the Wikipedia page
 Also, the plot_result function should also be modified if you changed the topic, but you don't need to modify the skeleton.
 ## Result
 here is a screenshot of the result diagram:
-![image](https://github.com/Erixcai/HomeTakeTask/assets/116468493/10ca6ea3-d055-491a-9967-2dcaaf688a9f)
+![image](https://github.com/Erixcai/HomeTakeTask/assets/116468493/b7e64ed1-c8c2-43b2-b29a-9e8bc3a8585a)
+![image](https://github.com/Erixcai/HomeTakeTask/assets/116468493/8a65a342-83d2-4aa1-8450-31eecde6e5ee)
+
 
 ## Future job
-There is still some error remaining in the graph. There is still a lot of gibberish at the horizontal and vertical coordinates. 
-This is despite the fact that we know that the codes in the vertical coordinates represent different states (sorted alphabetically) 
-and the vertical codes represent different votes. Even though we can get enough relative vote relationships from the chart for the 2020 election, 
-the jumbled codes still negatively impact the viewability of our images. Here's what I analyzed as a possible problem: Because the website was looking 
-for itself, it didn't manage to find the most appropriate model when analyzing the webpage using llm. This is the next problem that needs to be solved.
+1.The pictures should be made a little more elaborate. For example, have each bar graph show the name of the state where it belongs.
+2.Making the code implementation more universal.
