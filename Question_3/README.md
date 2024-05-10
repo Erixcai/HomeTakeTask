@@ -1,5 +1,5 @@
-# Election Results Scraper
-This Python script scrapes election results from Wikipedia and visualizes them using a bar chart. It specifically targets the 2020 United States elections results page.
+# Search Online & Answer Questions in Diagram
+This python script answers the question 'If i just ask you a question, can you search online (programmatically), and answer the question in a chart or graph?' In this script, I used 'What was 2020 US election results?' as an example to demo the result.
 
 ## Installation
 To run this script, you need Python installed on your machine along with the following Python libraries:
@@ -17,6 +17,8 @@ Use python environment to run.
 Once you run the script, it will automatically fetch the data from the specified Wikipedia page, process it, and display a bar chart showing the results of the 2020 US elections by state.
 
 Note: The scraping functionality is based on the structure of the Wikipedia page as of the time of writing this script. If the structure of the webpage changes, the script may require updates.
+
+Also, the plot_result function should also be modified if you changed the topic, but you don't need to modify the skeleton.
 ## Result
 here is a screenshot of the result diagram:
 ![image](https://github.com/Erixcai/HomeTakeTask/assets/116468493/10ca6ea3-d055-491a-9967-2dcaaf688a9f)
