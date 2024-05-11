@@ -13,14 +13,23 @@ You can install these libraries using pip:
 pip install requests beautifulsoup4 matplotlib
 ```
 ## How to run
-Use python environment to run.
+Before you run the python script under your anaconda or python environment, your should set up these three things in main() function:
+1. openai_api_key : https://platform.openai.com/docs/quickstart
+2. google_api_key : https://developers.google.com/maps/documentation/javascript/get-api-key?hl=zh-cn
+3. google_cse_id : https://support.google.com/programmable-search/answer/12499034?hl=en
 
+After setting these links up, directly click 'run' in your environment.
 ## How to Use
-
+After run it, you will see an input box in your terminal: 'Please enter your query: ' 
+Enter your questions, then 'enter'.
 ## Result
-here is a screenshot of the result diagram:
-![image](https://github.com/Erixcai/HomeTakeTask/assets/116468493/b7e64ed1-c8c2-43b2-b29a-9e8bc3a8585a)
-![image](https://github.com/Erixcai/HomeTakeTask/assets/116468493/8a65a342-83d2-4aa1-8450-31eecde6e5ee)
+Case 1: Good data.
+  Input: What's 2020 election results?
+  Output:
+![d8ec4a7d1e5869c178ac1281fd68203](https://github.com/Erixcai/HomeTakeTask/assets/116468493/c73342f3-5096-41ea-8680-58f87f7700cc)
+Case 2: Data is bad.
+  Input: What's UCLA 2023 new student gender rate?
+  Output: raise('Ops, we did not find any data from resources! Try again!')
 
 
 ## Future job
