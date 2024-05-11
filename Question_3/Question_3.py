@@ -97,7 +97,7 @@ def main():
     openai_api_key = 'your-openai-api-key' # replace these keys and id to your own
     google_api_key = 'your-google-api-key'
     google_cse_id = 'your google-cse-id'
-    user_query = "What's 2012 US election result?"
+    user_query = input('Please enter your query: ')
     count = 0
     # Get a response from OpenAI
     response_text = get_openai_response(openai_api_key, user_query)
