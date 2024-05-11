@@ -24,12 +24,16 @@ After run it, you will see an input box in your terminal: 'Please enter your que
 Enter your questions, then 'enter'.
 ## Result
 Case 1: Good data.
+
   Input: What's 2020 election results?
+  
   Output:
 ![d8ec4a7d1e5869c178ac1281fd68203](https://github.com/Erixcai/HomeTakeTask/assets/116468493/c73342f3-5096-41ea-8680-58f87f7700cc) 
 
 Case 2: Data is bad.
+
   Input: What's UCLA 2023 new student gender rate?
+  
   Output: raise('Ops, we did not find any data from resources! Try again!')
 
 
